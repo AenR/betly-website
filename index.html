@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/jpg" href="img/betly.jpg">
+    <title>Betly | Your casino bot</title>
+
+    <style>
+        .btn.buttons {
+            color: white;
+            background-size: 200%;
+        }
+
+        .btn.buttons:hover {
+            background-position: right;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffcc00;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #ffb300;
+        }
+    </style>
+</head>
+
+<body style="background-image: linear-gradient(120deg, #2d3436, #636e72, #2d3436); color: white;">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="img/betly.jpg" class="rounded-circle"
+                style="max-width: 32px; height: auto;"> Betly</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#main">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#author">Author</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sponsors">Sponsors</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                Your casino bot
+            </span>
+        </div>
+    </nav>
+
+    <div class="container text-center" id="main">
+        <img src="img/betly.jpg" class="img-thumbnail rounded-circle mx-auto d-block mt-5"
+            style="max-width: 25%; height: auto;">
+        <h1 class="mt-2 font-weight-bold">Betly</h1>
+        <p>Discord's best casino bot</p>
+        <a href="https://bit.ly/bet-ly" target="_blank" class="btn buttons"
+            style="background-image: linear-gradient(120deg, #e67e22, #f1c40f, #e67e22); outline: none; border: none; transition: 0.4s;">Invite
+            Me</a>
+        <a href="#features" class="btn buttons"
+            style="background-image: linear-gradient(120deg, #e67e22, #f1c40f, #e67e22); outline: none; border: none; transition: 0.4s;">Features</a>
+    </div>
+
+    <div class="container text-center">
+        <h3 class="mt-5 font-weight-bold" id="features">Bot Features</h3>
+        <div class="container text-center">
+            <div class="row" style="display: flex; justify-content: center; color: black;">
+                <div class="col-sm-3 mx-3 my-3 img-thumbnail">
+                    <h4>General Features</h4>
+                    <p>
+                    <table class="table table-hover">
+                        <tbody>
+                            <tr>
+                                <td>/register</td>
+                                <td>Register with discord id*</td>
+                            </tr>
+                            <tr>
+                                <td>/daily-gift</td>
+                                <td>Claim your daily gift.</td>
+                            </tr>
+                            <tr>
+                                <td>/balance</td>
+                                <td>Shows your balance.</td>
+                            </tr>
+                            <tr>
+                                <td>/experience</td>
+                                <td>Shows your experience.</td>
+                            </tr>
+                            <tr>
+                                <td>/author</td>
+                                <td>Learn about my author.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </p>
+                </div>
+                <div class="col-sm-3 mx-3 my-3 img-thumbnail">
+                    <h4>Game Features</h4>
+                    <p>
+                    <table class="table table-hover">
+                        <tbody>
+                            <tr>
+                                <td>/play-coinflip</td>
+                                <td>Play Coin Flip.</td>
+                            </tr>
+                            <tr>
+                                <td>/play-guess 1-6</td>
+                                <td>Play Guess Game.</td>
+                            </tr>
+                            <tr>
+                                <td>/play-same-dice</td>
+                                <td>Play Same Dice Game.</td>
+                            </tr>
+                            <tr>
+                                <td>/play-slots</td>
+                                <td>Play slots.</td>
+                            </tr>
+                            <tr>
+                                <td>/play-roulette 1-36</td>
+                                <td>Play roulette.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </p>
+                </div>
+                <div class="col-sm-3 mx-3 my-3 img-thumbnail">
+                    <h4>Admin Features</h4>
+                    <p>
+                    <table class="table table-hover">
+                        <tbody>
+                            <tr>
+                                <td>/set-money id amount</td>
+                                <td>Set user's money.</td>
+                            </tr>
+                            <tr>
+                                <td>/set-experience id amount</td>
+                                <td>Set user's experience.</td>
+                            </tr>
+                            <tr>
+                                <td>/ban id</td>
+                                <td>Ban a user.</td>
+                            </tr>
+                            <tr>
+                                <td>/reset-daily id</td>
+                                <td>Reset user's daily gift.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <h3 class="mt-5 font-weight-bold" id="author">Author</h3>
+        <div class="container text-center">
+            <div class="row" style="display: flex; justify-content: center; color: black;;">
+                <div class="col-sm-3 mx-3 my-3 img-thumbnail">
+                    <img src="img/tan.jpg" class="img-thumbnail rounded-circle mx-auto d-block mt-5">
+                    <h4>AenR</h4>
+                    <hr>
+                    <p style="color: #ffcc00; text-decoration: none;"><a href="https://github.com/AenR"
+                            target="_blank"><i class="fa-brands fa-github"></i></a> <a
+                            href="https://www.linkedin.com/in/emre-eren-tan/" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a> <a
+                            href="https://discordapp.com/users/535033289346514964" target="_blank"><i
+                                class="fa-brands fa-discord"></i></a></p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <h3 class="mt-5 font-weight-bold" id="sponsors">Sponsors</h3>
+        <div class="container text-center">
+            <div class="row" style="display: flex; justify-content: center; color: black;">
+                <div class="col-sm-3 mx-3 my-3 img-thumbnail">
+                    <h4>Sponsor</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis modi magni dolores neque
+                        dicta? Voluptates!</p>
+                </div>
+                <div class="col-sm-3 mx-3 my-3 img-thumbnail">
+                    <h4>Sponsor</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis modi magni dolores neque
+                        dicta? Voluptates!</p>
+                </div>
+                <div class="col-sm-3 mx-3 my-3 img-thumbnail">
+                    <h4>Sponsor</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis modi magni dolores neque
+                        dicta? Voluptates!</p>
+                </div>
+                <div class="col-sm-3 mx-3 my-3 img-thumbnail">
+                    <h4>Sponsor</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis modi magni dolores neque
+                        dicta? Voluptates!</p>
+                </div>
+                <div class="col-sm-3 mx-3 my-3 img-thumbnail">
+                    <h4>Sponsor</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis modi magni dolores neque
+                        dicta? Voluptates!</p>
+                </div>
+                <div class="col-sm-3 mx-3 my-3 img-thumbnail">
+                    <h4>Sponsor</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis modi magni dolores neque
+                        dicta? Voluptates!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            Betly Discord Bot © 2023
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+
+</html>
